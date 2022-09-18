@@ -1,0 +1,633 @@
+﻿namespace ProjetoCSharp
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Variável de designer necessária.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Limpar os recursos que estão sendo usados.
+        /// </summary>
+        /// <param name="disposing">true se for necessário descartar os recursos gerenciados; caso contrário, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Código gerado pelo Windows Form Designer
+
+        /// <summary>
+        /// Método necessário para suporte ao Designer - não modifique 
+        /// o conteúdo deste método com o editor de código.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            this.btSair = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.btGuardar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
+            this.listarJogosDG = new Bunifu.UI.WinForms.BunifuDataGridView();
+            this.completoCheckbox = new Bunifu.UI.WinForms.BunifuCheckBox();
+            this.nomeJogotxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.notatxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.horastxt = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            ((System.ComponentModel.ISupportInitialize)(this.listarJogosDG)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // btSair
+            // 
+            this.btSair.AllowAnimations = true;
+            this.btSair.AllowMouseEffects = true;
+            this.btSair.AllowToggling = false;
+            this.btSair.AnimationSpeed = 200;
+            this.btSair.AutoGenerateColors = false;
+            this.btSair.AutoRoundBorders = false;
+            this.btSair.AutoSizeLeftIcon = true;
+            this.btSair.AutoSizeRightIcon = true;
+            this.btSair.BackColor = System.Drawing.Color.Transparent;
+            this.btSair.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btSair.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btSair.BackgroundImage")));
+            this.btSair.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSair.ButtonText = "Sair";
+            this.btSair.ButtonTextMarginLeft = 0;
+            this.btSair.ColorContrastOnClick = 45;
+            this.btSair.ColorContrastOnHover = 45;
+            this.btSair.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.btSair.CustomizableEdges = borderEdges1;
+            this.btSair.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btSair.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btSair.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btSair.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btSair.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btSair.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btSair.ForeColor = System.Drawing.Color.White;
+            this.btSair.IconLeft = null;
+            this.btSair.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btSair.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btSair.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btSair.IconMarginLeft = 11;
+            this.btSair.IconPadding = 10;
+            this.btSair.IconRight = null;
+            this.btSair.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btSair.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btSair.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btSair.IconSize = 25;
+            this.btSair.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btSair.IdleBorderRadius = 0;
+            this.btSair.IdleBorderThickness = 0;
+            this.btSair.IdleFillColor = System.Drawing.Color.Empty;
+            this.btSair.IdleIconLeftImage = null;
+            this.btSair.IdleIconRightImage = null;
+            this.btSair.IndicateFocus = false;
+            this.btSair.Location = new System.Drawing.Point(738, 397);
+            this.btSair.Name = "btSair";
+            this.btSair.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btSair.OnDisabledState.BorderRadius = 1;
+            this.btSair.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSair.OnDisabledState.BorderThickness = 1;
+            this.btSair.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btSair.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btSair.OnDisabledState.IconLeftImage = null;
+            this.btSair.OnDisabledState.IconRightImage = null;
+            this.btSair.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btSair.onHoverState.BorderRadius = 1;
+            this.btSair.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSair.onHoverState.BorderThickness = 1;
+            this.btSair.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btSair.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btSair.onHoverState.IconLeftImage = null;
+            this.btSair.onHoverState.IconRightImage = null;
+            this.btSair.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btSair.OnIdleState.BorderRadius = 1;
+            this.btSair.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSair.OnIdleState.BorderThickness = 1;
+            this.btSair.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btSair.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btSair.OnIdleState.IconLeftImage = null;
+            this.btSair.OnIdleState.IconRightImage = null;
+            this.btSair.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btSair.OnPressedState.BorderRadius = 1;
+            this.btSair.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btSair.OnPressedState.BorderThickness = 1;
+            this.btSair.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btSair.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btSair.OnPressedState.IconLeftImage = null;
+            this.btSair.OnPressedState.IconRightImage = null;
+            this.btSair.Size = new System.Drawing.Size(86, 32);
+            this.btSair.TabIndex = 0;
+            this.btSair.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btSair.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btSair.TextMarginLeft = 0;
+            this.btSair.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btSair.UseDefaultRadiusAndThickness = true;
+            this.btSair.Click += new System.EventHandler(this.btSair_Click);
+            // 
+            // btGuardar
+            // 
+            this.btGuardar.AllowAnimations = true;
+            this.btGuardar.AllowMouseEffects = true;
+            this.btGuardar.AllowToggling = false;
+            this.btGuardar.AnimationSpeed = 200;
+            this.btGuardar.AutoGenerateColors = false;
+            this.btGuardar.AutoRoundBorders = false;
+            this.btGuardar.AutoSizeLeftIcon = true;
+            this.btGuardar.AutoSizeRightIcon = true;
+            this.btGuardar.BackColor = System.Drawing.Color.Transparent;
+            this.btGuardar.BackColor1 = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(183)))));
+            this.btGuardar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btGuardar.BackgroundImage")));
+            this.btGuardar.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btGuardar.ButtonText = "Guardar";
+            this.btGuardar.ButtonTextMarginLeft = 0;
+            this.btGuardar.ColorContrastOnClick = 45;
+            this.btGuardar.ColorContrastOnHover = 45;
+            this.btGuardar.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.btGuardar.CustomizableEdges = borderEdges2;
+            this.btGuardar.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btGuardar.DisabledBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btGuardar.DisabledFillColor = System.Drawing.Color.Empty;
+            this.btGuardar.DisabledForecolor = System.Drawing.Color.Empty;
+            this.btGuardar.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
+            this.btGuardar.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btGuardar.ForeColor = System.Drawing.Color.White;
+            this.btGuardar.IconLeft = null;
+            this.btGuardar.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btGuardar.IconLeftCursor = System.Windows.Forms.Cursors.Default;
+            this.btGuardar.IconLeftPadding = new System.Windows.Forms.Padding(11, 3, 3, 3);
+            this.btGuardar.IconMarginLeft = 11;
+            this.btGuardar.IconPadding = 10;
+            this.btGuardar.IconRight = null;
+            this.btGuardar.IconRightAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btGuardar.IconRightCursor = System.Windows.Forms.Cursors.Default;
+            this.btGuardar.IconRightPadding = new System.Windows.Forms.Padding(3, 3, 7, 3);
+            this.btGuardar.IconSize = 25;
+            this.btGuardar.IdleBorderColor = System.Drawing.Color.Empty;
+            this.btGuardar.IdleBorderRadius = 0;
+            this.btGuardar.IdleBorderThickness = 0;
+            this.btGuardar.IdleFillColor = System.Drawing.Color.Empty;
+            this.btGuardar.IdleIconLeftImage = null;
+            this.btGuardar.IdleIconRightImage = null;
+            this.btGuardar.IndicateFocus = false;
+            this.btGuardar.Location = new System.Drawing.Point(469, 23);
+            this.btGuardar.Name = "btGuardar";
+            this.btGuardar.OnDisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(191)))), ((int)(((byte)(191)))), ((int)(((byte)(191)))));
+            this.btGuardar.OnDisabledState.BorderRadius = 1;
+            this.btGuardar.OnDisabledState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btGuardar.OnDisabledState.BorderThickness = 1;
+            this.btGuardar.OnDisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.btGuardar.OnDisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(168)))), ((int)(((byte)(160)))), ((int)(((byte)(168)))));
+            this.btGuardar.OnDisabledState.IconLeftImage = null;
+            this.btGuardar.OnDisabledState.IconRightImage = null;
+            this.btGuardar.onHoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btGuardar.onHoverState.BorderRadius = 1;
+            this.btGuardar.onHoverState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btGuardar.onHoverState.BorderThickness = 1;
+            this.btGuardar.onHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(150)))), ((int)(((byte)(255)))));
+            this.btGuardar.onHoverState.ForeColor = System.Drawing.Color.White;
+            this.btGuardar.onHoverState.IconLeftImage = null;
+            this.btGuardar.onHoverState.IconRightImage = null;
+            this.btGuardar.OnIdleState.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.btGuardar.OnIdleState.BorderRadius = 1;
+            this.btGuardar.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btGuardar.OnIdleState.BorderThickness = 1;
+            this.btGuardar.OnIdleState.FillColor = System.Drawing.Color.DodgerBlue;
+            this.btGuardar.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.btGuardar.OnIdleState.IconLeftImage = null;
+            this.btGuardar.OnIdleState.IconRightImage = null;
+            this.btGuardar.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btGuardar.OnPressedState.BorderRadius = 1;
+            this.btGuardar.OnPressedState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
+            this.btGuardar.OnPressedState.BorderThickness = 1;
+            this.btGuardar.OnPressedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(96)))), ((int)(((byte)(144)))));
+            this.btGuardar.OnPressedState.ForeColor = System.Drawing.Color.White;
+            this.btGuardar.OnPressedState.IconLeftImage = null;
+            this.btGuardar.OnPressedState.IconRightImage = null;
+            this.btGuardar.Size = new System.Drawing.Size(150, 39);
+            this.btGuardar.TabIndex = 1;
+            this.btGuardar.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.btGuardar.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btGuardar.TextMarginLeft = 0;
+            this.btGuardar.TextPadding = new System.Windows.Forms.Padding(0);
+            this.btGuardar.UseDefaultRadiusAndThickness = true;
+            this.btGuardar.Click += new System.EventHandler(this.btGuardar_Click);
+            // 
+            // listarJogosDG
+            // 
+            this.listarJogosDG.AllowCustomTheming = false;
+            this.listarJogosDG.AllowUserToOrderColumns = true;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
+            this.listarJogosDG.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.listarJogosDG.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.listarJogosDG.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listarJogosDG.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.listarJogosDG.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.listarJogosDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.listarJogosDG.ColumnHeadersHeight = 40;
+            this.listarJogosDG.CurrentTheme.AlternatingRowsStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(248)))), ((int)(((byte)(251)))), ((int)(((byte)(255)))));
+            this.listarJogosDG.CurrentTheme.AlternatingRowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.listarJogosDG.CurrentTheme.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.listarJogosDG.CurrentTheme.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.listarJogosDG.CurrentTheme.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            this.listarJogosDG.CurrentTheme.BackColor = System.Drawing.Color.White;
+            this.listarJogosDG.CurrentTheme.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.listarJogosDG.CurrentTheme.HeaderStyle.BackColor = System.Drawing.Color.DodgerBlue;
+            this.listarJogosDG.CurrentTheme.HeaderStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 11.75F, System.Drawing.FontStyle.Bold);
+            this.listarJogosDG.CurrentTheme.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.listarJogosDG.CurrentTheme.HeaderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(115)))), ((int)(((byte)(204)))));
+            this.listarJogosDG.CurrentTheme.HeaderStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.listarJogosDG.CurrentTheme.Name = null;
+            this.listarJogosDG.CurrentTheme.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.listarJogosDG.CurrentTheme.RowsStyle.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            this.listarJogosDG.CurrentTheme.RowsStyle.ForeColor = System.Drawing.Color.Black;
+            this.listarJogosDG.CurrentTheme.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            this.listarJogosDG.CurrentTheme.RowsStyle.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(232)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.listarJogosDG.DefaultCellStyle = dataGridViewCellStyle3;
+            this.listarJogosDG.EnableHeadersVisualStyles = false;
+            this.listarJogosDG.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(238)))), ((int)(((byte)(255)))));
+            this.listarJogosDG.HeaderBackColor = System.Drawing.Color.DodgerBlue;
+            this.listarJogosDG.HeaderBgColor = System.Drawing.Color.Empty;
+            this.listarJogosDG.HeaderForeColor = System.Drawing.Color.White;
+            this.listarJogosDG.Location = new System.Drawing.Point(30, 202);
+            this.listarJogosDG.Name = "listarJogosDG";
+            this.listarJogosDG.RowHeadersVisible = false;
+            this.listarJogosDG.RowTemplate.Height = 40;
+            this.listarJogosDG.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.listarJogosDG.Size = new System.Drawing.Size(460, 227);
+            this.listarJogosDG.TabIndex = 2;
+            this.listarJogosDG.Theme = Bunifu.UI.WinForms.BunifuDataGridView.PresetThemes.Light;
+            // 
+            // completoCheckbox
+            // 
+            this.completoCheckbox.AllowBindingControlAnimation = true;
+            this.completoCheckbox.AllowBindingControlColorChanges = false;
+            this.completoCheckbox.AllowBindingControlLocation = true;
+            this.completoCheckbox.AllowCheckBoxAnimation = false;
+            this.completoCheckbox.AllowCheckmarkAnimation = true;
+            this.completoCheckbox.AllowOnHoverStates = true;
+            this.completoCheckbox.AutoCheck = true;
+            this.completoCheckbox.BackColor = System.Drawing.Color.Transparent;
+            this.completoCheckbox.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("completoCheckbox.BackgroundImage")));
+            this.completoCheckbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.completoCheckbox.BindingControlPosition = Bunifu.UI.WinForms.BunifuCheckBox.BindingControlPositions.Right;
+            this.completoCheckbox.BorderRadius = 12;
+            this.completoCheckbox.Checked = true;
+            this.completoCheckbox.CheckState = Bunifu.UI.WinForms.BunifuCheckBox.CheckStates.Checked;
+            this.completoCheckbox.Cursor = System.Windows.Forms.Cursors.Default;
+            this.completoCheckbox.CustomCheckmarkImage = null;
+            this.completoCheckbox.Location = new System.Drawing.Point(469, 148);
+            this.completoCheckbox.MinimumSize = new System.Drawing.Size(17, 17);
+            this.completoCheckbox.Name = "completoCheckbox";
+            this.completoCheckbox.OnCheck.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.completoCheckbox.OnCheck.BorderRadius = 12;
+            this.completoCheckbox.OnCheck.BorderThickness = 2;
+            this.completoCheckbox.OnCheck.CheckBoxColor = System.Drawing.Color.DodgerBlue;
+            this.completoCheckbox.OnCheck.CheckmarkColor = System.Drawing.Color.White;
+            this.completoCheckbox.OnCheck.CheckmarkThickness = 2;
+            this.completoCheckbox.OnDisable.BorderColor = System.Drawing.Color.LightGray;
+            this.completoCheckbox.OnDisable.BorderRadius = 12;
+            this.completoCheckbox.OnDisable.BorderThickness = 2;
+            this.completoCheckbox.OnDisable.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.completoCheckbox.OnDisable.CheckmarkColor = System.Drawing.Color.LightGray;
+            this.completoCheckbox.OnDisable.CheckmarkThickness = 2;
+            this.completoCheckbox.OnHoverChecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.completoCheckbox.OnHoverChecked.BorderRadius = 12;
+            this.completoCheckbox.OnHoverChecked.BorderThickness = 2;
+            this.completoCheckbox.OnHoverChecked.CheckBoxColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.completoCheckbox.OnHoverChecked.CheckmarkColor = System.Drawing.Color.White;
+            this.completoCheckbox.OnHoverChecked.CheckmarkThickness = 2;
+            this.completoCheckbox.OnHoverUnchecked.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.completoCheckbox.OnHoverUnchecked.BorderRadius = 12;
+            this.completoCheckbox.OnHoverUnchecked.BorderThickness = 1;
+            this.completoCheckbox.OnHoverUnchecked.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.completoCheckbox.OnUncheck.BorderColor = System.Drawing.Color.DarkGray;
+            this.completoCheckbox.OnUncheck.BorderRadius = 12;
+            this.completoCheckbox.OnUncheck.BorderThickness = 1;
+            this.completoCheckbox.OnUncheck.CheckBoxColor = System.Drawing.Color.Transparent;
+            this.completoCheckbox.Size = new System.Drawing.Size(21, 21);
+            this.completoCheckbox.Style = Bunifu.UI.WinForms.BunifuCheckBox.CheckBoxStyles.Bunifu;
+            this.completoCheckbox.TabIndex = 3;
+            this.completoCheckbox.ThreeState = false;
+            this.completoCheckbox.ToolTipText = null;
+            // 
+            // nomeJogotxt
+            // 
+            this.nomeJogotxt.AcceptsReturn = false;
+            this.nomeJogotxt.AcceptsTab = false;
+            this.nomeJogotxt.AnimationSpeed = 200;
+            this.nomeJogotxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.nomeJogotxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.nomeJogotxt.AutoSizeHeight = true;
+            this.nomeJogotxt.BackColor = System.Drawing.Color.Transparent;
+            this.nomeJogotxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("nomeJogotxt.BackgroundImage")));
+            this.nomeJogotxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.nomeJogotxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.nomeJogotxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.nomeJogotxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.nomeJogotxt.BorderRadius = 1;
+            this.nomeJogotxt.BorderThickness = 1;
+            this.nomeJogotxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.nomeJogotxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.nomeJogotxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.nomeJogotxt.DefaultText = "";
+            this.nomeJogotxt.FillColor = System.Drawing.Color.White;
+            this.nomeJogotxt.HideSelection = true;
+            this.nomeJogotxt.IconLeft = null;
+            this.nomeJogotxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.nomeJogotxt.IconPadding = 10;
+            this.nomeJogotxt.IconRight = null;
+            this.nomeJogotxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.nomeJogotxt.Lines = new string[0];
+            this.nomeJogotxt.Location = new System.Drawing.Point(30, 12);
+            this.nomeJogotxt.MaxLength = 32767;
+            this.nomeJogotxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.nomeJogotxt.Modified = false;
+            this.nomeJogotxt.Multiline = false;
+            this.nomeJogotxt.Name = "nomeJogotxt";
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.nomeJogotxt.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.nomeJogotxt.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.nomeJogotxt.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.Silver;
+            stateProperties4.FillColor = System.Drawing.Color.White;
+            stateProperties4.ForeColor = System.Drawing.Color.Empty;
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.nomeJogotxt.OnIdleState = stateProperties4;
+            this.nomeJogotxt.Padding = new System.Windows.Forms.Padding(3);
+            this.nomeJogotxt.PasswordChar = '\0';
+            this.nomeJogotxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.nomeJogotxt.PlaceholderText = "Nome do Jogo";
+            this.nomeJogotxt.ReadOnly = false;
+            this.nomeJogotxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.nomeJogotxt.SelectedText = "";
+            this.nomeJogotxt.SelectionLength = 0;
+            this.nomeJogotxt.SelectionStart = 0;
+            this.nomeJogotxt.ShortcutsEnabled = true;
+            this.nomeJogotxt.Size = new System.Drawing.Size(260, 39);
+            this.nomeJogotxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.nomeJogotxt.TabIndex = 4;
+            this.nomeJogotxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.nomeJogotxt.TextMarginBottom = 0;
+            this.nomeJogotxt.TextMarginLeft = 3;
+            this.nomeJogotxt.TextMarginTop = 1;
+            this.nomeJogotxt.TextPlaceholder = "Nome do Jogo";
+            this.nomeJogotxt.UseSystemPasswordChar = false;
+            this.nomeJogotxt.WordWrap = true;
+            // 
+            // notatxt
+            // 
+            this.notatxt.AcceptsReturn = false;
+            this.notatxt.AcceptsTab = false;
+            this.notatxt.AnimationSpeed = 200;
+            this.notatxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.notatxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.notatxt.AutoSizeHeight = true;
+            this.notatxt.BackColor = System.Drawing.Color.Transparent;
+            this.notatxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("notatxt.BackgroundImage")));
+            this.notatxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.notatxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.notatxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.notatxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.notatxt.BorderRadius = 1;
+            this.notatxt.BorderThickness = 1;
+            this.notatxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.notatxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.notatxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.notatxt.DefaultText = "";
+            this.notatxt.FillColor = System.Drawing.Color.White;
+            this.notatxt.HideSelection = true;
+            this.notatxt.IconLeft = null;
+            this.notatxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.notatxt.IconPadding = 10;
+            this.notatxt.IconRight = null;
+            this.notatxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.notatxt.Lines = new string[0];
+            this.notatxt.Location = new System.Drawing.Point(30, 72);
+            this.notatxt.MaxLength = 32767;
+            this.notatxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.notatxt.Modified = false;
+            this.notatxt.Multiline = false;
+            this.notatxt.Name = "notatxt";
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.notatxt.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.notatxt.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.notatxt.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.Silver;
+            stateProperties8.FillColor = System.Drawing.Color.White;
+            stateProperties8.ForeColor = System.Drawing.Color.Empty;
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.notatxt.OnIdleState = stateProperties8;
+            this.notatxt.Padding = new System.Windows.Forms.Padding(3);
+            this.notatxt.PasswordChar = '\0';
+            this.notatxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.notatxt.PlaceholderText = "Nota do Jogo";
+            this.notatxt.ReadOnly = false;
+            this.notatxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.notatxt.SelectedText = "";
+            this.notatxt.SelectionLength = 0;
+            this.notatxt.SelectionStart = 0;
+            this.notatxt.ShortcutsEnabled = true;
+            this.notatxt.Size = new System.Drawing.Size(260, 39);
+            this.notatxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.notatxt.TabIndex = 5;
+            this.notatxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.notatxt.TextMarginBottom = 0;
+            this.notatxt.TextMarginLeft = 3;
+            this.notatxt.TextMarginTop = 1;
+            this.notatxt.TextPlaceholder = "Nota do Jogo";
+            this.notatxt.UseSystemPasswordChar = false;
+            this.notatxt.WordWrap = true;
+            // 
+            // horastxt
+            // 
+            this.horastxt.AcceptsReturn = false;
+            this.horastxt.AcceptsTab = false;
+            this.horastxt.AnimationSpeed = 200;
+            this.horastxt.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
+            this.horastxt.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
+            this.horastxt.AutoSizeHeight = true;
+            this.horastxt.BackColor = System.Drawing.Color.Transparent;
+            this.horastxt.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("horastxt.BackgroundImage")));
+            this.horastxt.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.horastxt.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            this.horastxt.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.horastxt.BorderColorIdle = System.Drawing.Color.Silver;
+            this.horastxt.BorderRadius = 1;
+            this.horastxt.BorderThickness = 1;
+            this.horastxt.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.horastxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.horastxt.DefaultFont = new System.Drawing.Font("Segoe UI", 9.25F);
+            this.horastxt.DefaultText = "";
+            this.horastxt.FillColor = System.Drawing.Color.White;
+            this.horastxt.HideSelection = true;
+            this.horastxt.IconLeft = null;
+            this.horastxt.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
+            this.horastxt.IconPadding = 10;
+            this.horastxt.IconRight = null;
+            this.horastxt.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
+            this.horastxt.Lines = new string[0];
+            this.horastxt.Location = new System.Drawing.Point(30, 130);
+            this.horastxt.MaxLength = 32767;
+            this.horastxt.MinimumSize = new System.Drawing.Size(1, 1);
+            this.horastxt.Modified = false;
+            this.horastxt.Multiline = false;
+            this.horastxt.Name = "horastxt";
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.horastxt.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.horastxt.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.horastxt.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.Empty;
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.horastxt.OnIdleState = stateProperties12;
+            this.horastxt.Padding = new System.Windows.Forms.Padding(3);
+            this.horastxt.PasswordChar = '\0';
+            this.horastxt.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.horastxt.PlaceholderText = "Horas Jogadas";
+            this.horastxt.ReadOnly = false;
+            this.horastxt.ScrollBars = System.Windows.Forms.ScrollBars.None;
+            this.horastxt.SelectedText = "";
+            this.horastxt.SelectionLength = 0;
+            this.horastxt.SelectionStart = 0;
+            this.horastxt.ShortcutsEnabled = true;
+            this.horastxt.Size = new System.Drawing.Size(260, 39);
+            this.horastxt.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
+            this.horastxt.TabIndex = 6;
+            this.horastxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.horastxt.TextMarginBottom = 0;
+            this.horastxt.TextMarginLeft = 3;
+            this.horastxt.TextMarginTop = 1;
+            this.horastxt.TextPlaceholder = "Horas Jogadas";
+            this.horastxt.UseSystemPasswordChar = false;
+            this.horastxt.WordWrap = true;
+            // 
+            // bunifuLabel1
+            // 
+            this.bunifuLabel1.AllowParentOverrides = false;
+            this.bunifuLabel1.AutoEllipsis = false;
+            this.bunifuLabel1.CursorType = System.Windows.Forms.Cursors.Default;
+            this.bunifuLabel1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuLabel1.ForeColor = System.Drawing.SystemColors.ControlLight;
+            this.bunifuLabel1.Location = new System.Drawing.Point(296, 148);
+            this.bunifuLabel1.Name = "bunifuLabel1";
+            this.bunifuLabel1.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel1.Size = new System.Drawing.Size(149, 21);
+            this.bunifuLabel1.TabIndex = 7;
+            this.bunifuLabel1.Text = "O Jogo foi finalizado?";
+            this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(836, 441);
+            this.Controls.Add(this.bunifuLabel1);
+            this.Controls.Add(this.horastxt);
+            this.Controls.Add(this.notatxt);
+            this.Controls.Add(this.nomeJogotxt);
+            this.Controls.Add(this.completoCheckbox);
+            this.Controls.Add(this.listarJogosDG);
+            this.Controls.Add(this.btGuardar);
+            this.Controls.Add(this.btSair);
+            this.Name = "Form1";
+            this.Text = "GameTraker";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.listarJogosDG)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btSair;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuButton btGuardar;
+        private Bunifu.UI.WinForms.BunifuDataGridView listarJogosDG;
+        private Bunifu.UI.WinForms.BunifuCheckBox completoCheckbox;
+        private Bunifu.UI.WinForms.BunifuTextBox nomeJogotxt;
+        private Bunifu.UI.WinForms.BunifuTextBox notatxt;
+        private Bunifu.UI.WinForms.BunifuTextBox horastxt;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
+    }
+}
+
